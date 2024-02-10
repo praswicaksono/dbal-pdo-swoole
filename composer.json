@@ -1,0 +1,25 @@
+{
+    "name": "jowy/dbal-pdo-swoole",
+    "description": "Connection Pooled PDO connection for Doctrine DBAL",
+    "type": "library",
+    "require": {
+        "doctrine/dbal": "^4.0",
+        "ext-pdo": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jowy\\DbalPdoSwoole\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Prasetyo Wicaksono",
+            "email": "pras.wicak92@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "swoole/ide-helper": "^5.1"
+    }
+}
